@@ -1,0 +1,214 @@
+/*General Elements*/
+h2 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 45px;    
+}
+h3 {
+    color: #02A212;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 45px;
+}
+h4 {
+    color: #02A212;
+    font-family: Snell Roundhand;
+    font-size: 28px;    
+}
+h5 {
+    color: #02A212;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 26px;
+}
+p {
+    font-family: Snell Roundhand;
+}
+/* Header */
+header {
+    background: #4D2712;
+    position: absolute;
+    width: 1440px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #02A212;
+}
+    /*Navigation Menu*/
+    header nav {
+        color: #4D2712;
+        text-align: right;
+        font-size: 1em;
+        padding: 2.0em 1.5em .5em;
+        margin: 1.0em 0;
+        font-family: Snell Roundhand;
+        position: absolute;
+        right: 20px;
+    }
+    header nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    header nav li {
+        display: inline;
+        padding: 1.0em;
+        font-style: oblique;
+    }
+    .navMenu {
+        font-size: 32px;
+        color: #02A212;
+    }
+
+/*logoWrapper*/
+#logoWrapper {
+    background-image: url(./Assets/chocolate-doughnut-background.jpg);
+    position: absolute;
+    width: 1440px;
+    height: 340px;
+    top: 68px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+}
+    /*Logo*/
+    #logo {
+        border-radius: 50%;
+        align-items: center;
+        position: relative;
+        top: 55px;
+    }
+
+/*Main*/
+
+.contentWrapper p{
+color: antiquewhite;
+font-size: 16pt;
+}
+#main {
+position: relative;
+top: 400px;
+left: -10px;
+width: 1440px;
+height: 1064px;
+margin: 0;
+padding: 0;
+background-image: url(./Assets/drying-doughnuts.jpg);
+}
+    /*Slideshow*/
+    #slideshowDiv {
+    position: absolute;
+    width: 825px;
+    height: 900px;
+    left: 24px;
+    top: 37px;
+    padding: 45px;
+    border: groove;
+    background: #A49486;
+    }
+    #Welcome {
+        position: relative;
+        color: antiquewhite;
+        bottom: 75px;
+        font-size: 50pt;
+    }
+    #eclairs {
+        position: relative;
+        bottom: 90px;
+    }
+    .content {
+        position: relative;
+        bottom: 100px;
+    }
+    /*Article*/
+    #articleDiv {
+    position: absolute;
+    width: 275px;
+    height: 900px;
+    left: 1021px;
+    top: 37px;
+    padding: 45px;
+    border: groove;
+    background: #A49486;
+    }
+    #martha {
+    position: relative;
+    right: 23px;
+    }
+
+/*Bottom*/
+#bottom {
+position: absolute;
+width: 1440px;
+height: 206px;
+top: 1472px;
+left: 0px;
+
+background: #4D2712;
+}
+    /*Phone*/
+#phone {
+position: relative;
+left: 75px;
+top: 75px;
+color: #02A212;    
+}
+    /*Subscription*/
+#subscription {
+position: relative;
+bottom: 80px;
+left: 0px;
+color: #02A212;
+}
+#subscription ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#subscription li {
+    height: 40px;
+}
+#subscription input{
+    position: relative;
+    bottom: 20px;
+    height: 40px;
+    width: 465px;
+    margin: 5px;
+    font-size: 150%;
+    text-align: center;
+}
+    /*Hours*/
+.Hours {
+position: relative;
+left: 1025px;
+bottom: 250px;
+color: #02A212;
+}
+/*Footer*/
+footer {
+position: absolute;
+width: 1440px;
+height: 69px;
+top: 1678px;
+left: 0px;
+
+background: #4D2712;
+}
+    /*Social Media Icons*/
+.socialIcon {
+    border: transparent;
+    border-radius: 50%;
+    padding: 0em 1.0em;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer li {
+    display: inline;
+    padding: 1.0em;
+}
